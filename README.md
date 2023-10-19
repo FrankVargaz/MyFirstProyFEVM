@@ -3,14 +3,14 @@ Para este primer repositorio se utilizarán los parámetros especificados del pr
 
 Siendo explicado por los parámetros del programa:
 
-- **Objetivos de aprendizaje**
+**Objetivos de aprendizaje**
 El objetivo principal de este proyecto es construir un pseudocódigo que permita:
 Entender y aplicar conceptos básicos de algoritmos y programación estructurada.
 Utilizar variables, constantes, operadores aritméticos y de comparación.
 Implementar control de flujo mediante condiciones.
 Utilizar Git como sistema de control de versiones y colaborar en GitHub.
 
-- **¿Qué construirás en este proyecto?**
+**¿Qué construirás en este proyecto?**
 Construirás un algoritmo en pseudocódigo que simule un sistema para calcular el costo de un producto con base en su precio original y el porcentaje de descuento aplicado. El algoritmo debe cumplir con los siguientes requisitos:
 
 - Leer el precio original del producto.
