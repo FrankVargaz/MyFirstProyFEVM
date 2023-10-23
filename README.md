@@ -73,7 +73,7 @@ Seguido por las llamadas del sistema "Escribir".
 ![Captura de pantalla 2023-10-21 022636](https://github.com/FrankVargaz/MyFirstProyFEVM/assets/146491297/4b0a048e-9f56-4458-ba6d-45e16893ad2a)
 
 
-Como se puede observar añadi un bucle de repetir (aunque no supe si añadir mas instancias de **SiNo*.
+Como se puede observar añadi un bucle de repetir (aunque no supe si añadir mas instancias de **SiNo*.)
 
 ---
 El procedimiento de los Operadores aritmeticos.
