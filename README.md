@@ -89,7 +89,7 @@ Calculo del envio y precio final.
 
 ![Captura de pantalla 2023-10-21 022752](https://github.com/FrankVargaz/MyFirstProyFEVM/assets/146491297/d23e6fc2-d488-4854-991c-58496ee37049)
 
-En esta parte me tarde en encontrar una letra que no coincidia con las variables de arriba, lo que me recuerda aun libro que lei y de manera mundana deja pasar de mi memoria **"The Clean Code"*.
+En esta parte me tarde en encontrar una letra que no coincidia con las variables de arriba, lo que me recuerda aun libro que lei y de manera mundana deja pasar de mi memoria "The Clean Code".
 
 ---
 
@@ -111,6 +111,6 @@ Esta es la seccion que mas facil se me hace por que todo lo que hiciste arriba a
 ## Conclucion
 
 
-En este proyecto de manera mas compleja pude aprendr en respecto a los operadores aritmeticos (aunque aun me falta practicar), de igual manera comprendi como dar los valores que son constantes como enteros, los reales como decimales o incompletos y los logicos como aquellos que determinan la verdad o lo falso siendo el punto de inicio que el programa (pseudocogigo) la respuesta de lo que lee o ingresas como valores, siento que me falta comprender de mejor manera los valores aritmeticos y los bucles me costaron tabajo tambien.
+En este proyecto de manera mas compleja pude aprender en respecto a los operadores aritmeticos (aunque aun me falta practicar), de igual manera comprendi como dar los valores que son constantes como enteros, los reales como decimales o incompletos y los logicos como aquellos que determinan la verdad o lo falso siendo el punto de inicio que el programa (pseudocogigo), la respuesta de lo que lee o ingresas como valores, siento que me falta comprender de mejor manera los valores aritmeticos y los bucles me costaron tabajo tambien.
 
 ---
