@@ -1,0 +1,62 @@
+mi codigo del pseudocigo:
+
+Algoritmo CalculadoradeCostosFEVM
+	//declaracion de variables
+	Definir precioOriginal, cantidad, costoEnvio, precioConDescuento Como Entero
+	Definir descuentoCantidad, costoFinal, descuentoPorcentaje Como Real
+	Definir datosValidos Como Logico
+	//definicion de variable
+	precioConImpuestos<-1.12
+	costoEnvio<-10
+	
+	//en esta seccion es en la que siempre me confundo por cierto
+	//no reconosco como darle valor logico o o los reales, dentro del pseudocidigo
+	
+	//definicion de entradas de Consola
+	//inicio del bucle en caso de que los datos no sean validos
+	Repetir
+		
+	Escribir "Ingrese el precio original del producto:"
+	leer precioOriginal
+	Escribir "Ingrese el cupon de descuento a aplicar:"
+	Leer descuentoPorcentaje
+	Escribir "Ingrese la cantidad de Productos:"
+	leer cantidad
+	Escribir "Ingrese el peso del paquete en KG:"
+	leer peso
+	
+	//fin del repetir si los datos no son validos
+	//verificacion de datos ingresados
+	datosValidos<- (precioOriginal > 0) Y (cantidad > 0)
+	Si No datosValidos Entonces
+		Escribir("Por favor, ingrese datos válidos. El precio y la cantidad deben ser mayores que cero.")
+	Fin Si	
+Hasta Que datosValidos
+	
+	//procesamiento
+	precioConDescuento = precioOriginal - (precioOriginal * (descuentoPorcentaje / 100))
+	precioConImpuestos = precioConDescuento * precioConImpuestos //aplicacion del IVA
+		//aplicacion del descuento por cantidad
+	Si cantidad > 1 Entonces
+		descuentoCantidad = precioConImpuestos * 0.05 //descuento por cantidad del 5%
+		precioConImpuestos = precioConImpuestos - descuentoCantidad
+	FinSi
+	
+	
+	//calculo del peso y precio final
+	costoEnvio = costoEnvio + (2 * peso)
+	costoFinal = (precioConImpuestos * cantidad) + costoEnvio
+	
+	
+	//desglose del progrmas, impuestos, descuentos y total
+	Escribir "Precio original del producto:", precioOriginal
+	Escribir "Precio con descuento e impuestos aplicados: ", precioConImpuestos
+	Escribir "Precio con descuento aplicado:", precioConDescuento
+	Escribir "Descuento por cantidad:", descuentoCantidad
+	Escribir "Costo de Envio: ", costoEnvio
+	Escribir "Costo total del producto: ", costoFinal
+	Escribir "Gracias por su compra :)"
+	Escribir "Para mas informes sobre nuestras politicas de Privacidad visita: WWW.theoldskoolshop.com"
+	
+FinAlgoritmo
+
